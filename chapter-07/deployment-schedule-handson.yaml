@@ -26,6 +26,6 @@ spec:
             topologyKey: kubernetes.io/hostname
       containers:
       - name: hello-server
-        image: blux2/hello-server:1.8
+        image: hello-server:1.8
         ports:
         - containerPort: 8080

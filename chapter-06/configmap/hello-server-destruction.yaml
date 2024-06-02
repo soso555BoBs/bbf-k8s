@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: hello-server
-        image: blux2/hello-server:1.4
+        image: hello-server:1.4
         env:
         - name: PORT
           valueFrom:

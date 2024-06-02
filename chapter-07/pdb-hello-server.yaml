@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: hello-server
-        image: blux2/hello-server:1.8
+        image: hello-server:1.8
