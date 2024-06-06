@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-server
-        image: hello-server:1.7
+        image: blux2/hello-server:1.7
         ports:
         - containerPort: 8080
         resources:
